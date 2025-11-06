@@ -15,40 +15,35 @@ header{
     background: linear-gradient(90deg, #111,#1c1c1c1c);
     color: rgb(235, 12, 12);
     box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
+   
 }
 
 header h1{
     font-size: 2rem;
     letter-spacing: 1px;
+    color: white;
 }
 
-#lista-filmes{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
-    gap: 20px;
-    padding: 30px;
-}
+
 .card{
     background: #1c1c1c;
-    border-radius: 12px;
+    border-radius: 18px;
     overflow: hidden;
     text-align: center;
     transition: transform 0.25 ease , box-shadow 0.25s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     position: relative;
-    width: 40%;
+    width: 500%;
 }
 .card:hover{
     transform: translateY(-8px);
-    box-shadow: 0 8px 20px rgba(245, 197, 24, 0.3);
+    box-shadow: 0 8px 20px rgba(212, 40, 40, 0.3);
 }
 .media-container {
-
     width: 100%;
     height: 400px;
     overflow: hidden;
-    /* border-bottom: 3px solid white; */
     background: #000;
 }
 
@@ -71,9 +66,10 @@ header h1{
 .card p{
     margin: 5px 0;
     font-size: 0.9rem;
+    color: white;
 }
 .estrelas{
-    color: #4c27c5;
+    color: #ffffff;
     font-size: 1.2rem;
     letter-spacing: 1px;
 }
@@ -85,20 +81,21 @@ header h1{
 }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #0d054d;
+    background: #1a0777;
     color: #000;
     line-height: 1.6;
 }
 header {
     text-align: center;
     padding: 25px;
-    background: #1a0777;
+    background-color: #0d054d;
     color: #04445c;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 header h2 {
     font-size: 2rem;
     letter-spacing: 1px;
+    color: white;
 }
 .container {
     display: flex;
@@ -119,7 +116,7 @@ header h2 {
 }
 .card1:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 20px#4c27c5;
+    box-shadow: 0 8px 20px#1a0777;
 }
 .card1 img {
     width: 220px;
@@ -136,11 +133,51 @@ header h2 {
     text-align: justify;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-left: 19rem;
+    margin-right: 19rem;
+    margin-top: 1rem;
 }
 .card h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
 }
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 67, 149, 0.6);
+}
+
+.next{
+    background: #ffffff;
+    padding: 0.8rem;
+    margin: 2rem;
+    border-radius: 17px;
+    width: 100px;
+    text-align: center;
+}
+
+.next a{
+    text-decoration: none;
+    color: #000;
+}
+
+.next:hover{
+    background: #7ab1c5;
+}
+
+.next2{
+    background: #ffffff;
+    padding: 0.8rem;
+    margin: 2rem;
+    border-radius: 17px;
+    width: 150px;
+    text-align: center;
+}
+
+.next2 a{
+    text-decoration: none;
+    color: #000;
+}
+
+.next2:hover{
+    background: #7ab1c5;
 }
